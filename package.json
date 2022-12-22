@@ -1,0 +1,29 @@
+{
+   "name": "planograma-backend",
+   "version": "1.0.0",
+   "description": "Back-End da página do Planograma PHC",
+   "main": "index.js",
+   "scripts": {
+      "start": "title Backend - Planograma - Porta: 9992 && ts-node-dev --respawn index.ts",
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "@types/cors": "^2.8.13",
+      "@types/express": "^4.17.15",
+      "@types/mongoose": "^5.11.97",
+      "@types/multer": "^1.4.7",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.3",
+      "express": "^4.17.1",
+      "googleapis": "^88.2.0",
+      "mongodb": "^4.1.2",
+      "mongoose": "^6.0.8",
+      "multer": "^1.4.3",
+      "nodemon": "^2.0.13"
+   },
+   "devDependencies": {
+      "ts-node-dev": "^2.0.0"
+   }
+}
